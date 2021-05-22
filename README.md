@@ -23,7 +23,11 @@ You can see what the reports look like by opening the `examples` subfolder. Here
 virtualenv -p $(which python3) ~/.virtualenvs/crosscompute
 source ~/.virtualenvs/crosscompute/bin/activate
 pip install --upgrade crosscompute-jupyterlab-extensions
+
+# Clone repository
+git clone https://github.com/crosscompute/load-profiles-report-example load-profiles
 cd load-profiles
+bash setup.sh
 
 # Paste environment variables from crosscompute.com
 export CROSSCOMPUTE_CLIENT=https://crosscompute.com
