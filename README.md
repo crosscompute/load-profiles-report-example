@@ -1,5 +1,7 @@
 # Electricity Load Profiles Example Report
 
+See this video to recreate the example report: https://youtu.be/b8Xe9Er86EU
+
 This example report demonstrates the following:
 
 1. How to output tables and images
