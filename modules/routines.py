@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from os.path import join
 
+
 from macros import (
     get_title_case_from_camel_case)
 
